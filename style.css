@@ -20,6 +20,9 @@ body{
     position: relative;
 }
 
-.number .clock{
+.clock .number{ 
     position: absolute; /*positioning absolutly correlates with the .clock relative */
+    width: 100%;
+    height: 100%; /*makes div a perfect square*/
+    text-align: center; /* text align centers this hours to the middle of the clock by centralising the numbers within the perfect square (which we created using height and width) */
 }
