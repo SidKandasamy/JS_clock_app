@@ -17,4 +17,9 @@ body{
     background-color: rgba(131, 189, 176, 0.5);
     border-radius: 50%;
     border: 2px solid;
+    position: relative;
+}
+
+.number .clock{
+    position: absolute; /*positioning absolutly correlates with the .clock relative */
 }
