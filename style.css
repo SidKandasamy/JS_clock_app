@@ -30,4 +30,16 @@ body{
 }
 
 .clock .number1{ --rotate: 30deg; }
+.clock .number2{ --rotate: 60deg; }
+.clock .number3{ --rotate: 90deg; }
+.clock .number4{ --rotate: 120deg; }
+.clock .number5{ --rotate: 150deg; }
+.clock .number6{ --rotate: 180deg; }
+.clock .number7{ --rotate: 210deg; }
+.clock .number8{ --rotate: 240deg; }
+.clock .number9{ --rotate: 270deg; }
+.clock .number10{ --rotate: 300deg; }
+.clock .number11{ --rotate: 330deg; }
+.clock .number12{ --rotate: 0deg; }
+
 
