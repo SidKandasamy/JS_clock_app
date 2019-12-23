@@ -21,7 +21,7 @@ body{
 }
 
 .clock .number{ 
-    rotate:0;
+    --rotate:0;
     position: absolute; /*positioning absolutly correlates with the .clock relative */
     width: 100%;
     height: 100%; /*makes div a perfect square*/
@@ -43,3 +43,19 @@ body{
 .clock .number12{ --rotate: 0deg; }
 
 
+.clock .hand{
+    --rotation: 0;
+    position: absolute; /*use absolute to centre the hand with the relative positioning of the clock */
+    bottom: 50%;
+    left: 50%;
+    width: 10px;
+    height: 40%;
+    background-color: black;
+    transform-origin:bottom; /*where the transform begins, bottom of the hand */
+    transform: translateX(-50%) rotate(calc(var(--rotation) *1deg )); /* translateX repositions elements horizontally, also the *1deg converts the rotation value to degrees */ 
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
