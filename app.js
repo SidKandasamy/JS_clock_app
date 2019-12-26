@@ -24,3 +24,5 @@ function setClock() {
 function setRotation (element, rotationRatio){ //this sets the element we want to target and the ratio
     element.style.setProperty('--rotate', rotationRatio * 360) //finds element, sets property to the --rotate which is in our CSS
 }
+
+setClock() //calls function as soon as it loads to give exact time
