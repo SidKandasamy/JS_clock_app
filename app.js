@@ -6,3 +6,6 @@ function setClock() {
     const minutes = (seconds + currentDate.getMinutes()) / 60 //seconds is a % of the minute
     const hour = (minutes + currentDate.getHours()) / 12 // 12 hours on the clock not 60
 }
+
+//targetting each hand using data attributes
+
